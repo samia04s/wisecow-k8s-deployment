@@ -1,0 +1,12 @@
+
+cat > .dockerignore << EOF
+.git
+.github
+*.md
+.gitignore
+k8s/
+docs/
+*.log
+.DS_Store
+Thumbs.db
+EOF
