@@ -233,7 +233,7 @@ jobs:
     - name: Cleanup test container
       if: always()
       run: |
-        echo "🧹 Cleaning up test container..."
+        echo " Cleaning up test container..."
         docker stop wisecow-test || true
         docker rm wisecow-test || true
         echo "✅ Cleanup completed"
